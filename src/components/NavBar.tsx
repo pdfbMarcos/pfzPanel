@@ -1,4 +1,4 @@
-import logo from "../assets/ICONEPDF-BRASIL-03.ico";
+import logo from "../assets/images/ICONEPDF-BRASIL-03.ico";
 
 const NavBar = () => {
   return (

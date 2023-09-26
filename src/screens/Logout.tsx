@@ -2,8 +2,6 @@ import { useEffect, useContext } from "react";
 import { AuthContext } from "../contexts/auth";
 import { useNavigate } from "react-router-dom";
 
-import logo from "../assets/logo.jpeg";
-
 function Logout() {
   const { logout } = useContext(AuthContext);
   const navigate = useNavigate();

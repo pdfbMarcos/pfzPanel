@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
-import "../assets/signin.css";
-import logo from "../assets/logo.jpeg";
 
+import "../assets/styles/signin.css";
+import logo from "../assets/images/logo.jpeg";
 import { AuthContext } from "../contexts/auth";
 
 export default function SignIn() {

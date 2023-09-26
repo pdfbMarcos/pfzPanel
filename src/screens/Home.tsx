@@ -1,12 +1,12 @@
 import { useState, useEffect, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 
-import repImg from "../assets/Report.png.webp";
-import docImg from "../assets/417213.png";
-import sigImg from "../assets/check-40319_1280.webp";
+import repImg from "../assets/images/Report.png.webp";
+import docImg from "../assets/images/417213.png";
+import sigImg from "../assets/images/check-40319_1280.webp";
 import useIdle from "../hooks/useIdleTimer";
 import { AuthContext } from "../contexts/auth";
-import "../assets/home.css";
+import "../assets/styles/home.css";
 
 function HomePage() {
   const navigate = useNavigate();
