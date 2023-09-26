@@ -1,10 +1,11 @@
 .container-center {
   height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #121212;
-  padding: 0 12px;
+  /* background-color: #121212; */
+  padding: 30px 12px;
 }
 
 .login {
@@ -14,6 +15,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border-radius: 50px;
+  padding: 30px;
 }
 
 .login-area {

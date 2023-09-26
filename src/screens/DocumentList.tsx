@@ -18,7 +18,7 @@ const DocumentList = () => {
     setRemainingTime(30); //set 15 seconds as time remaining
   };
 
-  const { isIdle } = useIdle({ onIdle: handleIdle, idleTime: 0.1 });
+  const { isIdle } = useIdle({ onIdle: handleIdle, idleTime: 0.9 });
 
   useEffect(() => {
     let interval: any;
