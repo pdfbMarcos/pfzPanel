@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import repImg from "../assets/images/Report.png.webp";
 import docImg from "../assets/images/417213.png";
-import sigImg from "../assets/images/check-40319_1280.webp";
+import sigImg from "../assets/images/1584553.png";
 import useIdle from "../hooks/useIdleTimer";
 import { AuthContext } from "../contexts/auth";
 import "../assets/styles/home.css";
