@@ -1,10 +1,10 @@
-import logo from "../assets/logo.jpeg";
+import logo from "../assets/ICONEPDF-BRASIL-03.ico";
 
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark mb-2 p-2">
       <a className="navbar-brand" href="#">
-        <img src={logo} width="45" height="30" alt="" />
+        <img src={logo} width="45" height="45" alt="" />
       </a>
       <a className="navbar-brand" href="/">
         PDFB
